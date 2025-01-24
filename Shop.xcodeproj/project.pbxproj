@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		A8B62FB22D42319F00604F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B62FB12D42319F00604F64 /* AppDelegate.swift */; };
 		A8B62FB42D42319F00604F64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B62FB32D42319F00604F64 /* SceneDelegate.swift */; };
-		A8B62FB62D42319F00604F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B62FB52D42319F00604F64 /* ViewController.swift */; };
-		A8B62FB92D42319F00604F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FB72D42319F00604F64 /* Main.storyboard */; };
 		A8B62FBB2D4231A100604F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FBA2D4231A100604F64 /* Assets.xcassets */; };
-		A8B62FBE2D4231A100604F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FBC2D4231A100604F64 /* LaunchScreen.storyboard */; };
+		A8B62FC72D42361A00604F64 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B62FC62D42361A00604F64 /* Model.swift */; };
+		A8B62FCA2D42363E00604F64 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B62FC92D42363E00604F64 /* FirstViewController.swift */; };
+		A8B62FCC2D42426600604F64 /* tshirt-adidas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FCB2D42426600604F64 /* tshirt-adidas.jpeg */; };
+		A8B62FCE2D42438400604F64 /* tshirt-nike.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FCD2D42438300604F64 /* tshirt-nike.png */; };
+		A8B62FD02D42438900604F64 /* tshirt-puma.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FCF2D42438900604F64 /* tshirt-puma.png */; };
+		A8B62FD42D42439300604F64 /* nike-shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FD12D42439200604F64 /* nike-shoes.png */; };
+		A8B62FD52D42439300604F64 /* adidas-shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FD22D42439300604F64 /* adidas-shoes.png */; };
+		A8B62FD62D42439300604F64 /* puma-shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FD32D42439300604F64 /* puma-shoes.png */; };
+		A8B62FD82D42467A00604F64 /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B62FD72D42467A00604F64 /* GoodViewController.swift */; };
+		A8B62FE42D4289B200604F64 /* puma-shoes2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FD92D4289B000604F64 /* puma-shoes2.jpeg */; };
+		A8B62FE52D4289B200604F64 /* puma-shoes3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FDA2D4289B000604F64 /* puma-shoes3.jpeg */; };
+		A8B62FE62D4289B200604F64 /* adidas-shoes2.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FDB2D4289B000604F64 /* adidas-shoes2.png */; };
+		A8B62FE72D4289B200604F64 /* tshirt-adidas2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FDC2D4289B100604F64 /* tshirt-adidas2.jpeg */; };
+		A8B62FE82D4289B200604F64 /* nike-shoes2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FDD2D4289B100604F64 /* nike-shoes2.jpeg */; };
+		A8B62FE92D4289B200604F64 /* tshirt-nike2.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FDE2D4289B100604F64 /* tshirt-nike2.png */; };
+		A8B62FEA2D4289B200604F64 /* adidas-shoes3.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FDF2D4289B100604F64 /* adidas-shoes3.png */; };
+		A8B62FEB2D4289B200604F64 /* tshirt-puma2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FE02D4289B100604F64 /* tshirt-puma2.jpeg */; };
+		A8B62FEC2D4289B200604F64 /* tshirt-adidas3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FE12D4289B100604F64 /* tshirt-adidas3.jpeg */; };
+		A8B62FED2D4289B200604F64 /* nike-shoes3.png in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FE22D4289B100604F64 /* nike-shoes3.png */; };
+		A8B62FEE2D4289B200604F64 /* tshirt-nike3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FE32D4289B200604F64 /* tshirt-nike3.jpeg */; };
+		A8B62FF02D4289E000604F64 /* tshirt-puma3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A8B62FEF2D4289E000604F64 /* tshirt-puma3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A8B62FAE2D42319F00604F64 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B62FB12D42319F00604F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8B62FB32D42319F00604F64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8B62FB52D42319F00604F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8B62FB82D42319F00604F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8B62FBA2D4231A100604F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8B62FBD2D4231A100604F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B62FBF2D4231A100604F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B62FC62D42361A00604F64 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A8B62FC92D42363E00604F64 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A8B62FCB2D42426600604F64 /* tshirt-adidas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-adidas.jpeg"; sourceTree = "<group>"; };
+		A8B62FCD2D42438300604F64 /* tshirt-nike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tshirt-nike.png"; sourceTree = "<group>"; };
+		A8B62FCF2D42438900604F64 /* tshirt-puma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tshirt-puma.png"; sourceTree = "<group>"; };
+		A8B62FD12D42439200604F64 /* nike-shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-shoes.png"; sourceTree = "<group>"; };
+		A8B62FD22D42439300604F64 /* adidas-shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-shoes.png"; sourceTree = "<group>"; };
+		A8B62FD32D42439300604F64 /* puma-shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puma-shoes.png"; sourceTree = "<group>"; };
+		A8B62FD72D42467A00604F64 /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		A8B62FD92D4289B000604F64 /* puma-shoes2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puma-shoes2.jpeg"; sourceTree = "<group>"; };
+		A8B62FDA2D4289B000604F64 /* puma-shoes3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puma-shoes3.jpeg"; sourceTree = "<group>"; };
+		A8B62FDB2D4289B000604F64 /* adidas-shoes2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-shoes2.png"; sourceTree = "<group>"; };
+		A8B62FDC2D4289B100604F64 /* tshirt-adidas2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-adidas2.jpeg"; sourceTree = "<group>"; };
+		A8B62FDD2D4289B100604F64 /* nike-shoes2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nike-shoes2.jpeg"; sourceTree = "<group>"; };
+		A8B62FDE2D4289B100604F64 /* tshirt-nike2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tshirt-nike2.png"; sourceTree = "<group>"; };
+		A8B62FDF2D4289B100604F64 /* adidas-shoes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adidas-shoes3.png"; sourceTree = "<group>"; };
+		A8B62FE02D4289B100604F64 /* tshirt-puma2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-puma2.jpeg"; sourceTree = "<group>"; };
+		A8B62FE12D4289B100604F64 /* tshirt-adidas3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-adidas3.jpeg"; sourceTree = "<group>"; };
+		A8B62FE22D4289B100604F64 /* nike-shoes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nike-shoes3.png"; sourceTree = "<group>"; };
+		A8B62FE32D4289B200604F64 /* tshirt-nike3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-nike3.jpeg"; sourceTree = "<group>"; };
+		A8B62FEF2D4289E000604F64 /* tshirt-puma3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt-puma3.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,49 @@
 		A8B62FB02D42319F00604F64 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				A8B62FDB2D4289B000604F64 /* adidas-shoes2.png */,
+				A8B62FDF2D4289B100604F64 /* adidas-shoes3.png */,
+				A8B62FDD2D4289B100604F64 /* nike-shoes2.jpeg */,
+				A8B62FE22D4289B100604F64 /* nike-shoes3.png */,
+				A8B62FD92D4289B000604F64 /* puma-shoes2.jpeg */,
+				A8B62FDA2D4289B000604F64 /* puma-shoes3.jpeg */,
+				A8B62FDC2D4289B100604F64 /* tshirt-adidas2.jpeg */,
+				A8B62FE12D4289B100604F64 /* tshirt-adidas3.jpeg */,
+				A8B62FDE2D4289B100604F64 /* tshirt-nike2.png */,
+				A8B62FE32D4289B200604F64 /* tshirt-nike3.jpeg */,
+				A8B62FEF2D4289E000604F64 /* tshirt-puma3.jpeg */,
+				A8B62FE02D4289B100604F64 /* tshirt-puma2.jpeg */,
+				A8B62FCB2D42426600604F64 /* tshirt-adidas.jpeg */,
+				A8B62FCD2D42438300604F64 /* tshirt-nike.png */,
+				A8B62FCF2D42438900604F64 /* tshirt-puma.png */,
+				A8B62FD22D42439300604F64 /* adidas-shoes.png */,
+				A8B62FD12D42439200604F64 /* nike-shoes.png */,
+				A8B62FD32D42439300604F64 /* puma-shoes.png */,
+				A8B62FC82D42362700604F64 /* View */,
+				A8B62FC52D42360B00604F64 /* Model */,
 				A8B62FB12D42319F00604F64 /* AppDelegate.swift */,
 				A8B62FB32D42319F00604F64 /* SceneDelegate.swift */,
-				A8B62FB52D42319F00604F64 /* ViewController.swift */,
-				A8B62FB72D42319F00604F64 /* Main.storyboard */,
 				A8B62FBA2D4231A100604F64 /* Assets.xcassets */,
-				A8B62FBC2D4231A100604F64 /* LaunchScreen.storyboard */,
 				A8B62FBF2D4231A100604F64 /* Info.plist */,
 			);
 			path = Shop;
+			sourceTree = "<group>";
+		};
+		A8B62FC52D42360B00604F64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8B62FC62D42361A00604F64 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8B62FC82D42362700604F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8B62FC92D42363E00604F64 /* FirstViewController.swift */,
+				A8B62FD72D42467A00604F64 /* GoodViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +195,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B62FBE2D4231A100604F64 /* LaunchScreen.storyboard in Resources */,
+				A8B62FEE2D4289B200604F64 /* tshirt-nike3.jpeg in Resources */,
+				A8B62FE82D4289B200604F64 /* nike-shoes2.jpeg in Resources */,
+				A8B62FED2D4289B200604F64 /* nike-shoes3.png in Resources */,
+				A8B62FE42D4289B200604F64 /* puma-shoes2.jpeg in Resources */,
+				A8B62FD52D42439300604F64 /* adidas-shoes.png in Resources */,
+				A8B62FD62D42439300604F64 /* puma-shoes.png in Resources */,
+				A8B62FE92D4289B200604F64 /* tshirt-nike2.png in Resources */,
+				A8B62FD02D42438900604F64 /* tshirt-puma.png in Resources */,
+				A8B62FEA2D4289B200604F64 /* adidas-shoes3.png in Resources */,
+				A8B62FCE2D42438400604F64 /* tshirt-nike.png in Resources */,
+				A8B62FE52D4289B200604F64 /* puma-shoes3.jpeg in Resources */,
 				A8B62FBB2D4231A100604F64 /* Assets.xcassets in Resources */,
-				A8B62FB92D42319F00604F64 /* Main.storyboard in Resources */,
+				A8B62FE62D4289B200604F64 /* adidas-shoes2.png in Resources */,
+				A8B62FEC2D4289B200604F64 /* tshirt-adidas3.jpeg in Resources */,
+				A8B62FEB2D4289B200604F64 /* tshirt-puma2.jpeg in Resources */,
+				A8B62FF02D4289E000604F64 /* tshirt-puma3.jpeg in Resources */,
+				A8B62FE72D4289B200604F64 /* tshirt-adidas2.jpeg in Resources */,
+				A8B62FCC2D42426600604F64 /* tshirt-adidas.jpeg in Resources */,
+				A8B62FD42D42439300604F64 /* nike-shoes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B62FB62D42319F00604F64 /* ViewController.swift in Sources */,
+				A8B62FD82D42467A00604F64 /* GoodViewController.swift in Sources */,
+				A8B62FC72D42361A00604F64 /* Model.swift in Sources */,
 				A8B62FB22D42319F00604F64 /* AppDelegate.swift in Sources */,
 				A8B62FB42D42319F00604F64 /* SceneDelegate.swift in Sources */,
+				A8B62FCA2D42363E00604F64 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A8B62FB72D42319F00604F64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8B62FB82D42319F00604F64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8B62FBC2D4231A100604F64 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8B62FBD2D4231A100604F64 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A8B62FC02D4231A100604F64 /* Debug */ = {
